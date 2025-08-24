@@ -40,7 +40,7 @@ const Features = () => {
   ]
 
   return (
-    <section className="py-12 sm:py-16 lg:py-20 bg-white">
+    <section id="features" className="py-12 sm:py-16 lg:py-20 bg-white">
       <div className="container mx-auto px-3 sm:px-6 lg:px-8">
         {/* Main Features */}
         <div className="text-center mb-8 sm:mb-12 lg:mb-16">
@@ -71,7 +71,7 @@ const Features = () => {
           {detailedFeatures.map((feature, index) => (
               <span
               key={index}
-                  className="px-3 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 bg-teal-50 text-teal-700 rounded-full text-xs sm:text-sm lg:text-base font-medium hover:bg-teal-100 hover:scale-105 transition-all duration-200 cursor-pointer animate-in fade-in-0 slide-in-from-bottom-4"
+              className="px-3 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 bg-purple-50 text-purple-800 rounded-full text-xs sm:text-sm lg:text-base font-medium hover:bg-purple-100 hover:scale-105 transition-all duration-200 cursor-pointer animate-in fade-in-0 slide-in-from-bottom-4"
                   style={{ animationDelay: `${600 + index * 100}ms`, animationDuration: "700ms" }}
             >
               {feature.title}
@@ -95,7 +95,7 @@ const Features = () => {
             <div className="pt-4">
                           <a
                               href="/features"
-                              className="text-teal-600 hover:text-teal-700 font-medium inline-flex items-center group"
+                className="text-purple-700 hover:text-purple-800 font-medium inline-flex items-center group"
                           >
                 View all features
                               <svg
@@ -111,20 +111,20 @@ const Features = () => {
           </div>
 
                   <div className="relative animate-in fade-in-0 slide-in-from-right-4 duration-700 delay-900">
-                      <div className="bg-gradient-to-br from-teal-50 to-emerald-100 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-purple-50 to-violet-100 rounded-2xl p-8">
                           <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
                 {/* Mock Project Interface */}
                 <div className="space-y-4">
                   <div className="flex items-center justify-between border-b pb-4">
                     <h4 className="font-semibold text-gray-900">Website Redesign Project</h4>
-                                      <span className="text-sm bg-teal-100 text-teal-800 px-3 py-1 rounded-full animate-pulse">
+                    <span className="text-sm bg-purple-100 text-purple-900 px-3 py-1 rounded-full animate-pulse">
                                           Active
                                       </span>
                   </div>
 
                   <div className="grid grid-cols-2 gap-4">
-                                      <div className="text-center p-4 bg-teal-50 rounded-lg hover:bg-teal-100 transition-colors duration-200">
-                                          <div className="text-2xl font-bold text-teal-600">15</div>
+                    <div className="text-center p-4 bg-purple-50 rounded-lg hover:bg-purple-100 transition-colors duration-200">
+                      <div className="text-2xl font-bold text-purple-700">15</div>
                       <div className="text-sm text-gray-600">Total Tasks</div>
                     </div>
                                       <div className="text-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors duration-200">
@@ -134,13 +134,13 @@ const Features = () => {
                   </div>
 
                   <div className="space-y-3">
-                                      <div className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:border-teal-300 hover:bg-teal-50 transition-all duration-200 cursor-pointer">
+                    <div className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:border-purple-300 hover:bg-purple-50 transition-all duration-200 cursor-pointer">
                                           <div className="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"></div>
                       <span className="flex-1 text-sm">Update homepage design</span>
                       <span className="text-xs text-gray-500">High</span>
                     </div>
-                                      <div className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:border-teal-300 hover:bg-teal-50 transition-all duration-200 cursor-pointer">
-                                          <div className="w-3 h-3 bg-teal-500 rounded-full animate-pulse delay-500"></div>
+                    <div className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:border-purple-300 hover:bg-purple-50 transition-all duration-200 cursor-pointer">
+                      <div className="w-3 h-3 bg-purple-600 rounded-full animate-pulse delay-500"></div>
                       <span className="flex-1 text-sm">Implement responsive layout</span>
                       <span className="text-xs text-gray-500">Medium</span>
                     </div>

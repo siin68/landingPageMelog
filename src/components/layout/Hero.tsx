@@ -12,7 +12,7 @@ const Hero = () => {
                           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight animate-in fade-in-0 slide-in-from-left-4 duration-700">
                 Plan less,
                 <br />
-                              <span className="text-teal-500">do more</span>
+                <span className="text-purple-600">do more</span>
               </h1>
                           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed max-w-lg animate-in fade-in-0 slide-in-from-left-4 duration-700 delay-200">
                               Project management software, code management, bug tracking, and more. The all-in-one collaboration tool
@@ -20,16 +20,16 @@ const Hero = () => {
               </p>
             </div>
 
-                      <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-in fade-in-0 slide-in-from-left-4 duration-700 delay-400">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-in fade-in-0 slide-in-from-left-4 duration-700 delay-400 cursor-pointer">
                           <Button
                               variant="primary"
-                              className="text-sm sm:text-base lg:text-lg px-4 sm:px-6 lg:px-8 py-3 lg:py-4 w-full sm:w-auto"
+                className="text-sm sm:text-base lg:text-lg px-4 sm:px-6 lg:px-8 py-3 lg:py-4 w-full sm:w-auto cursor-pointer "
                           >
                 Try it free
               </Button>
                           <Button
                               variant="secondary"
-                              className="text-sm sm:text-base lg:text-lg px-4 sm:px-6 lg:px-8 py-3 lg:py-4 w-full sm:w-auto"
+                className="text-sm sm:text-base lg:text-lg px-4 sm:px-6 lg:px-8 py-3 lg:py-4 w-full sm:w-auto cursor-pointer"
                           >
                 Contact sales
               </Button>
@@ -67,7 +67,7 @@ const Hero = () => {
                           <div className="bg-white rounded-2xl p-4 sm:p-6 shadow-xl w-64 sm:w-80 relative z-10">
                               <div className="flex items-center justify-between mb-4">
                                   <div className="flex items-center space-x-2">
-                                      <div className="w-6 h-6 bg-teal-500 rounded-lg"></div>
+                    <div className="w-6 h-6 bg-purple-600 rounded-lg"></div>
                                       <span className="font-semibold text-gray-900 text-sm">Project Dashboard</span>
                   </div>
                                   <div className="flex space-x-1">
@@ -78,8 +78,8 @@ const Hero = () => {
                 </div>
 
                               <div className="grid grid-cols-3 gap-3 mb-4">
-                                  <div className="bg-teal-50 p-3 rounded-lg text-center">
-                                      <div className="text-xl font-bold text-teal-600">24</div>
+                  <div className="bg-purple-50 p-3 rounded-lg text-center">
+                    <div className="text-xl font-bold text-purple-700">24</div>
                                       <div className="text-xs text-gray-600">Active</div>
                   </div>
                                   <div className="bg-green-50 p-3 rounded-lg text-center">
@@ -94,7 +94,7 @@ const Hero = () => {
 
                               <div className="space-y-2">
                                   <div className="flex items-center space-x-2 p-2 bg-gray-50 rounded-lg">
-                                      <div className="w-3 h-3 bg-teal-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-purple-600 rounded-full"></div>
                                       <span className="flex-1 text-xs">Design homepage</span>
                   </div>
                                   <div className="flex items-center space-x-2 p-2 bg-gray-50 rounded-lg">

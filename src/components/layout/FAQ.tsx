@@ -52,33 +52,33 @@ const FAQ = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+    <section id="faq" className="py-16 sm:py-20 lg:py-24 xl:py-32 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-16 lg:mb-20 xl:mb-24">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8">
             Frequently Asked Questions
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-600 max-w-2xl lg:max-w-4xl mx-auto px-2">
             Find answers to common questions about Backlog and project management.
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="space-y-4">
+        <div className="max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
+          <div className="space-y-3 sm:space-y-4 lg:space-y-6">
             {faqs.map((faq, index) => (
               <div 
                 key={index}
-                className="bg-white border border-gray-200 rounded-lg shadow-sm"
+                className="bg-white border border-gray-200 rounded-lg sm:rounded-xl lg:rounded-2xl shadow-sm hover:shadow-md transition-all duration-200"
               >
                 <button
-                  className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition-colors"
+                  className="w-full px-4 sm:px-6 lg:px-8 xl:px-10 py-4 sm:py-5 lg:py-6 xl:py-8 text-left flex items-center justify-between hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition-colors"
                   onClick={() => toggleFAQ(index)}
                 >
-                  <span className="font-medium text-gray-900 pr-4">
+                  <span className="font-medium text-gray-900 pr-4 sm:pr-6 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed">
                     {faq.question}
                   </span>
                   <svg
-                    className={`w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ${
+                    className={`w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                     fill="none"
@@ -90,9 +90,9 @@ const FAQ = () => {
                 </button>
                 
                 {openIndex === index && (
-                  <div className="px-6 pb-4">
-                    <div className="border-t border-gray-100 pt-4">
-                      <p className="text-gray-600 leading-relaxed">
+                  <div className="px-4 sm:px-6 lg:px-8 xl:px-10 pb-4 sm:pb-5 lg:pb-6 xl:pb-8">
+                    <div className="border-t border-gray-100 pt-4 sm:pt-5 lg:pt-6">
+                      <p className="text-gray-600 leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl">
                         {faq.answer}
                       </p>
                     </div>
