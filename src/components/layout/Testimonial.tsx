@@ -38,12 +38,10 @@ const Testimonial = () => {
   return (
     <section id="testimonials" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6 lg:px-8">
-        {/* Customer Voices */}
         <div className="text-center mb-16">
                   <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">CUSTOMER VOICES</h2>
         </div>
 
-        {/* Testimonials Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           {testimonials.map((testimonial, index) => (
               <div
@@ -76,7 +74,6 @@ const Testimonial = () => {
           ))}
         </div>
 
-        {/* Ratings Section */}
         <div className="text-center mb-16">
                   <h3 className="text-3xl font-bold text-gray-900 mb-12">HIGHLY RATED BY USERS AND EXPERTS</h3>
 

@@ -12,7 +12,6 @@ const Screenshots = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left side - Features */}
           <div className="space-y-8">
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
@@ -87,9 +86,7 @@ const Screenshots = () => {
             </div>
           </div>
 
-          {/* Right side - Mock Screenshots */}
           <div className="relative">
-            {/* Main Dashboard Screenshot */}
             <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
               <div className="bg-gradient-to-r from-indigo-500 to-purple-600 p-4">
                 <div className="flex items-center space-x-3">
@@ -103,7 +100,6 @@ const Screenshots = () => {
               </div>
 
               <div className="p-6">
-                {/* Navigation */}
                 <div className="flex items-center space-x-6 mb-6 pb-4 border-b border-gray-200">
                   <div className="text-indigo-600 font-medium border-b-2 border-indigo-600 pb-2">Overview</div>
                   <div className="text-gray-500">Issues</div>
@@ -111,7 +107,6 @@ const Screenshots = () => {
                   <div className="text-gray-500">Files</div>
                 </div>
 
-                {/* Stats Cards */}
                 <div className="grid grid-cols-4 gap-4 mb-6">
                   <div className="bg-blue-50 p-4 rounded-lg text-center">
                     <div className="text-2xl font-bold text-blue-600">24</div>
@@ -131,7 +126,6 @@ const Screenshots = () => {
                   </div>
                 </div>
 
-                {/* Recent Activity */}
                 <div className="space-y-3">
                   <h4 className="font-semibold text-gray-900">Recent Activity</h4>
 
@@ -168,7 +162,6 @@ const Screenshots = () => {
               </div>
             </div>
 
-            {/* Floating elements */}
             <div className="absolute -top-6 -right-6 w-24 h-24 bg-indigo-200 rounded-full opacity-20 animate-pulse"></div>
             <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-purple-200 rounded-full opacity-20 animate-pulse delay-1000"></div>
           </div>

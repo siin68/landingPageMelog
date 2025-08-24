@@ -121,7 +121,6 @@ const Pricing = () => {
           </div>
         </div>
 
-        {/* Pricing Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 sm:gap-6 mb-12 sm:mb-16 max-w-7xl mx-auto">
           {plans.map((plan, index) => (
             <div
@@ -174,7 +173,6 @@ const Pricing = () => {
           ))}
         </div>
 
-        {/* Enterprise Plan */}
         <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-xl lg:rounded-2xl p-6 sm:p-8 lg:p-12 text-white">
           <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-center">
             <div>

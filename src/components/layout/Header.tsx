@@ -27,7 +27,6 @@ const Header = () => {
             </Link>
           </div>
 
-          {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <button
               onClick={() => scrollToSection('features')}
@@ -66,7 +65,6 @@ const Header = () => {
             </button>
           </nav>
 
-          {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-3 lg:space-x-4">
             <Link
               href="/login"
@@ -79,7 +77,6 @@ const Header = () => {
             </Button>
           </div>
 
-          {/* Mobile menu button */}
           <button
             className="md:hidden p-1.5 sm:p-2 hover:bg-gray-100 rounded-lg transition-colors duration-200"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -90,7 +87,6 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile menu */}
         {isMenuOpen && (
           <div className="absolute top-full left-0 right-0 bg-white border-t border-gray-100 shadow-lg md:hidden z-50 animate-in slide-in-from-top-2 duration-200">
             <div className="container mx-auto px-3 sm:px-6 lg:px-8">

@@ -32,7 +32,6 @@ const Integrations = () => {
           </p>
         </div>
 
-        {/* Integration Grid */}
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3 sm:gap-4 lg:gap-6 mb-8 sm:mb-12">
           {integrations.map((integration, index) => (
             <div
@@ -60,7 +59,6 @@ const Integrations = () => {
           </a>
         </div>
 
-        {/* Cacoo Integration Highlight */}
         <div className="mt-12 sm:mt-16 lg:mt-20 bg-white rounded-xl lg:rounded-2xl p-6 sm:p-8 lg:p-12 shadow-lg">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
             <div className="space-y-4 sm:space-y-6">
