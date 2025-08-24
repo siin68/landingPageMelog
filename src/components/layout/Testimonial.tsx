@@ -7,7 +7,7 @@ const Testimonial = () => {
       role: "Project Manager",
       company: "Tech Startup",
           content:
-              "Backlog has transformed how our team collaborates. The intuitive interface and powerful features make project management a breeze.",
+        "Melog has transformed how our team collaborates. The intuitive interface and powerful features make project management a breeze.",
           avatar: "I",
     },
     {
@@ -23,7 +23,7 @@ const Testimonial = () => {
         role: "Product Owner",
       company: "E-commerce Company",
           content:
-              "We've tried many project management tools, but Backlog strikes the perfect balance between simplicity and functionality.",
+        "We've tried many project management tools, but Melog strikes the perfect balance between simplicity and functionality.",
           avatar: "C",
       },
   ]

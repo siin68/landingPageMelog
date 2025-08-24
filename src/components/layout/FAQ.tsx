@@ -6,40 +6,40 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "How does Backlog streamline project management for teams?",
-      answer: "Backlog provides an all-in-one platform that combines project management, issue tracking, version control, and team collaboration tools. This eliminates the need to switch between multiple applications, reducing complexity and increasing productivity."
+      question: "How does Melog streamline project management for teams?",
+      answer: "Melog provides an all-in-one platform that combines project management, issue tracking, version control, and team collaboration tools. This eliminates the need to switch between multiple applications, reducing complexity and increasing productivity."
     },
     {
-      question: "What features make Backlog stand out as the best project management software?",
-      answer: "Backlog stands out with its intuitive interface, Git/SVN integration, Gantt charts, Kanban boards, wiki functionality, and seamless issue tracking. It's designed specifically for development teams and creative professionals."
+      question: "What features make Melog stand out as the best project management software?",
+      answer: "Melog stands out with its intuitive interface, Git/SVN integration, Gantt charts, Kanban boards, wiki functionality, and seamless issue tracking. It's designed specifically for development teams and creative professionals."
     },
     {
-      question: "How can project managers leverage the task management capabilities of Backlog?",
+      question: "How can project managers leverage the task management capabilities of Melog?",
       answer: "Project managers can create detailed task hierarchies, set dependencies, track progress with visual charts, assign tasks to team members, set deadlines, and monitor project health through comprehensive dashboards and reports."
     },
     {
-      question: "Can I create and manage task lists within Backlog for timely project completion?",
-      answer: "Yes, Backlog offers flexible task list creation with customizable fields, priority levels, categories, and milestones. You can organize tasks by project, assignee, or status to ensure nothing falls through the cracks."
+      question: "Can I create and manage task lists within Melog for timely project completion?",
+      answer: "Yes, Melog offers flexible task list creation with customizable fields, priority levels, categories, and milestones. You can organize tasks by project, assignee, or status to ensure nothing falls through the cracks."
     },
     {
-      question: "How does Backlog enhance collaboration among team members?",
-      answer: "Backlog enhances collaboration through real-time commenting, file sharing, @mentions, notifications, shared wikis, and integrated communication tools. Team members can stay updated on project progress and communicate effectively within the platform."
+      question: "How does Melog enhance collaboration among team members?",
+      answer: "Melog enhances collaboration through real-time commenting, file sharing, @mentions, notifications, shared wikis, and integrated communication tools. Team members can stay updated on project progress and communicate effectively within the platform."
     },
     {
       question: "Are there specialized project management tools for small teams and startups?",
-      answer: "Yes, Backlog offers a free plan for up to 10 users and 1 project, making it perfect for small teams and startups. The Starter plan provides additional features for growing teams at an affordable price point."
+      answer: "Yes, Melog offers a free plan for up to 10 users and 1 project, making it perfect for small teams and startups. The Starter plan provides additional features for growing teams at an affordable price point."
     },
     {
-      question: "How does file sharing in Backlog contribute to smoother project management?",
-      answer: "Backlog provides centralized file storage with version control, allowing teams to share documents, images, and other assets securely. Files can be attached to tasks, organized by project, and accessed by authorized team members."
+      question: "How does file sharing in Melog contribute to smoother project management?",
+      answer: "Melog provides centralized file storage with version control, allowing teams to share documents, images, and other assets securely. Files can be attached to tasks, organized by project, and accessed by authorized team members."
     },
     {
       question: "Can I track the progress of multiple projects simultaneously?",
-      answer: "Absolutely! Backlog's dashboard provides a comprehensive overview of all your projects, their status, deadlines, and key metrics. You can easily switch between projects and monitor progress across your entire portfolio."
+      answer: "Absolutely! Melog's dashboard provides a comprehensive overview of all your projects, their status, deadlines, and key metrics. You can easily switch between projects and monitor progress across your entire portfolio."
     },
     {
-      question: "How can I customize Backlog to fit my project management workflow?",
-      answer: "Backlog offers extensive customization options including custom fields, issue types, workflows, notification settings, and integrations with popular tools. You can tailor the platform to match your team's specific processes and requirements."
+      question: "How can I customize Melog to fit my project management workflow?",
+      answer: "Melog offers extensive customization options including custom fields, issue types, workflows, notification settings, and integrations with popular tools. You can tailor the platform to match your team's specific processes and requirements."
     },
     {
       question: "Why is project management important?",
@@ -59,7 +59,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-600 max-w-2xl lg:max-w-4xl mx-auto px-2">
-            Find answers to common questions about Backlog and project management.
+            Find answers to common questions about Melog and project management.
           </p>
         </div>
 

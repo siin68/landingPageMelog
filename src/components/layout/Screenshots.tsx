@@ -5,9 +5,9 @@ const Screenshots = () => {
     <section className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
-                  <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">See Backlog in action</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">See Melog in action</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover how teams use Backlog to manage projects, track issues, and collaborate effectively.
+            Discover how teams use Melog to manage projects, track issues, and collaborate effectively.
           </p>
         </div>
 

@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Footer = () => {
   const productLinks = [
-    { name: "Backlog", href: "/backlog" },
+    { name: "Melog", href: "/Melog" },
     { name: "Cacoo", href: "/cacoo" },
     { name: "Nulab Pass", href: "/nulabpass" },
     { name: "Pricing", href: "/pricing" },
@@ -29,7 +29,7 @@ const Footer = () => {
     { name: "Developers API", href: "/api" },
     { name: "Learn", href: "/learn" },
     { name: "Blog", href: "/blog" },
-      { name: "Release Notes", href: "/release-notes" },
+    { name: "Release Notes", href: "/release-notes" },
   ]
 
   const companyLinks = [
@@ -99,15 +99,13 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        {/* Main Footer Content */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8 mb-8 sm:mb-12">
-          {/* Brand Section */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4 sm:mb-6">
               <div className="w-6 h-6 sm:w-8 sm:h-8 bg-purple-600 rounded-md sm:rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xs sm:text-sm">B</span>
               </div>
-              <span className="text-lg sm:text-xl font-bold">Backlog</span>
+              <span className="text-lg sm:text-xl font-bold">Melog</span>
             </Link>
             <p className="text-gray-400 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
               Simple and intuitive project management software for moving real work forward.
@@ -126,7 +124,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Products */}
           <div>
             <h3 className="font-semibold text-base sm:text-lg mb-3 sm:mb-4">Products</h3>
             <ul className="space-y-2 sm:space-y-3">
@@ -140,7 +137,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Workflows */}
           <div>
             <h3 className="font-semibold text-base sm:text-lg mb-3 sm:mb-4">Workflows</h3>
             <ul className="space-y-2 sm:space-y-3">
@@ -154,7 +150,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
           <div>
             <h3 className="font-semibold text-base sm:text-lg mb-3 sm:mb-4">Resources</h3>
             <ul className="space-y-2 sm:space-y-3">
@@ -168,7 +163,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
           <div>
             <h3 className="font-semibold text-base sm:text-lg mb-3 sm:mb-4">Company</h3>
             <ul className="space-y-2 sm:space-y-3">
@@ -183,7 +177,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter Section */}
         <div className="border-t border-gray-800 pt-6 sm:pt-8 mb-6 sm:mb-8">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 lg:gap-0">
             <div className="w-full lg:w-auto">
@@ -203,9 +196,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
         <div className="border-t border-gray-800 pt-6 sm:pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0">
-          <div className="text-gray-400 text-xs sm:text-sm">© 2025 Backlog. All Rights Reserved.</div>
+          <div className="text-gray-400 text-xs sm:text-sm">© 2025 Melog. All Rights Reserved.</div>
           <div className="flex items-center space-x-3 sm:space-x-4">
             <span className="text-gray-400 text-xs sm:text-sm">English</span>
             <select className="bg-gray-800 border border-gray-700 rounded px-2 sm:px-3 py-1 text-xs sm:text-sm text-gray-400 focus:outline-none focus:border-purple-500">

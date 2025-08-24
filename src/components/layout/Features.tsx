@@ -6,51 +6,50 @@ const Features = () => {
     {
       icon: "🎯",
       title: "Grow your business",
-          description: "All the tools you need to scale your projects and team efficiently.",
+      description: "All the tools you need to scale your projects and team efficiently.",
     },
     {
       icon: "🤝",
       title: "Work better together",
-        description: "Your project work in one place. Collaborate seamlessly with your team.",
+      description: "Your project work in one place. Collaborate seamlessly with your team.",
     },
     {
       icon: "✨",
       title: "Enjoy the process",
-          description: "Reconnect with the joy of creating. Make work feel less like work.",
+      description: "Reconnect with the joy of creating. Make work feel less like work.",
       },
   ]
 
   const detailedFeatures = [
     {
       title: "Project Management",
-          description: "Organize tasks, set deadlines, and track progress in real-time.",
+      description: "Organize tasks, set deadlines, and track progress in real-time.",
     },
     {
       title: "Bug & Issue Tracking",
-        description: "Keep track of bugs and issues with detailed reporting and analysis.",
+      description: "Keep track of bugs and issues with detailed reporting and analysis.",
     },
     {
       title: "Boards & Charts",
-        description: "Visualize your workflow with Kanban boards and Gantt charts.",
+      description: "Visualize your workflow with Kanban boards and Gantt charts.",
     },
     {
       title: "Version Control",
-          description: "Git and Subversion integration for seamless code management.",
-      },
+      description: "Git and Subversion integration for seamless code management.",
+    },
   ]
 
   return (
     <section id="features" className="py-12 sm:py-16 lg:py-20 bg-white">
       <div className="container mx-auto px-3 sm:px-6 lg:px-8">
-        {/* Main Features */}
         <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4 lg:mb-6 leading-tight px-2 animate-in fade-in-0 slide-in-from-bottom-4 duration-700">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4 lg:mb-6 leading-tight px-2 animate-in fade-in-0 slide-in-from-bottom-4 duration-700">
             The all-in-one collaboration
             <br className="hidden sm:block" />
             <span className="sm:hidden"> </span>tool for creators
           </h2>
                   <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-2 animate-in fade-in-0 slide-in-from-bottom-4 duration-700 delay-200">
-            Backlog frees you up to focus on what matters most.
+            Melog frees you up to focus on what matters most.
           </p>
         </div>
 
@@ -60,13 +59,12 @@ const Features = () => {
               key={index}
                   className="animate-in fade-in-0 slide-in-from-bottom-4 duration-700"
                   style={{ animationDelay: `${300 + index * 100}ms` }}
-              >
-                  <FeatureCard icon={feature.icon} title={feature.title} description={feature.description} />
+            >
+              <FeatureCard icon={feature.icon} title={feature.title} description={feature.description} />
               </div>
           ))}
         </div>
 
-        {/* Feature Tags */}
         <div className="flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4 mb-8 sm:mb-12 lg:mb-16 px-2">
           {detailedFeatures.map((feature, index) => (
               <span
@@ -79,7 +77,6 @@ const Features = () => {
           ))}
         </div>
 
-        {/* Detailed Feature Section */}
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
                   <div className="space-y-4 sm:space-y-6 animate-in fade-in-0 slide-in-from-left-4 duration-700 delay-700">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
@@ -113,7 +110,6 @@ const Features = () => {
                   <div className="relative animate-in fade-in-0 slide-in-from-right-4 duration-700 delay-900">
             <div className="bg-gradient-to-br from-purple-50 to-violet-100 rounded-2xl p-8">
                           <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
-                {/* Mock Project Interface */}
                 <div className="space-y-4">
                   <div className="flex items-center justify-between border-b pb-4">
                     <h4 className="font-semibold text-gray-900">Website Redesign Project</h4>

@@ -98,8 +98,8 @@ const Header = () => {
                   }}
                   className="text-sm sm:text-base text-gray-600 hover:text-purple-700 transition-colors duration-200 py-1 cursor-pointer text-left"
                 >
-                Features
-              </button>
+                  Features
+                </button>
                 <button
                   onClick={() => {
                     scrollToSection('pricing')

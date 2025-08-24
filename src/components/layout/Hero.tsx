@@ -6,7 +6,6 @@ const Hero = () => {
       <section className="bg-white min-h-screen flex items-center py-8 sm:py-12">
       <div className="container mx-auto px-3 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
-          {/* Left Content */}
           <div className="space-y-4 sm:space-y-6 lg:space-y-8 order-2 lg:order-1">
             <div className="space-y-3 sm:space-y-4 lg:space-y-6">
                           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight animate-in fade-in-0 slide-in-from-left-4 duration-700">
@@ -35,7 +34,6 @@ const Hero = () => {
               </Button>
             </div>
 
-            {/* Trust indicators */}
                       <div className="pt-4 sm:pt-6 lg:pt-8 animate-in fade-in-0 slide-in-from-left-4 duration-700 delay-600">
               <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wide font-medium mb-2 sm:mb-4">
                 TRUSTED BY OVER 18,000 COMPANIES WORLDWIDE
@@ -60,10 +58,8 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Content - Hero Image */}
                   <div className="relative order-1 lg:order-2 animate-in fade-in-0 slide-in-from-right-4 duration-700 delay-300">
-                      <div className="relative bg-gray-50 rounded-full w-80 h-80 sm:w-96 sm:h-96 lg:w-[500px] lg:h-[500px] mx-auto flex items-center justify-center">
-                          {/* Central dashboard mockup */}
+            <div className="relative bg-gray-50 rounded-full w-80 h-80 sm:w-96 sm:h-96 lg:w-[500px] lg:h-[500px] mx-auto flex items-center justify-center">
                           <div className="bg-white rounded-2xl p-4 sm:p-6 shadow-xl w-64 sm:w-80 relative z-10">
                               <div className="flex items-center justify-between mb-4">
                                   <div className="flex items-center space-x-2">
@@ -102,9 +98,8 @@ const Hero = () => {
                                       <span className="flex-1 text-xs">Fix auth bug</span>
                                   </div>
                               </div>
-                          </div>
+              </div>
 
-                          {/* Floating avatars */}
                           <div className="absolute top-16 right-16 w-16 h-16 bg-pink-400 rounded-full flex items-center justify-center shadow-lg animate-bounce delay-1000">
                               <span className="text-white font-bold text-lg">👩</span>
               </div>
@@ -115,7 +110,6 @@ const Hero = () => {
                               <span className="text-white font-bold text-sm">👤</span>
                           </div>
 
-                          {/* Dotted connection lines */}
                           <div className="absolute inset-0 pointer-events-none">
                               <svg className="w-full h-full opacity-30">
                                   <path

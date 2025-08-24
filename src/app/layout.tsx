@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Backlog - Plan less, do more | Project Management Software",
+  title: "Melog - Plan less, do more | Project Management Software",
   description: "Project management software, code management, bug tracking, and more. The all-in-one collaboration tool for creators trusted by over 18,000 companies worldwide.",
 };
 
