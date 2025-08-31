@@ -2,6 +2,7 @@
 import { useState } from "react"
 import Button from "@/components/ui/Button"
 import Link from "next/link"
+import Image from "next/image"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -19,9 +20,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-14 sm:h-16">
           <div className="flex items-center space-x-2 sm:space-x-4">
             <Link href="/" className="flex items-center space-x-1 sm:space-x-2 group">
-              <img
+              <Image
                 src="/icons/melog.png"
                 alt="Logo"
+                width={140}
+                height={40}
                 className="max-w-35 object-contain transition-transform duration-200 group-hover:scale-110"
               />
             </Link>
