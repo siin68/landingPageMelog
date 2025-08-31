@@ -10,7 +10,8 @@ export async function POST(request: NextRequest) {
             { message: 'Contact form submitted successfully' },
             { status: 200 }
         )
-    } catch (error) {
+    } catch (err) {
+        console.error('Contact form error:', err)
         return NextResponse.json(
             { error: 'Failed to process contact form' },
             { status: 500 }

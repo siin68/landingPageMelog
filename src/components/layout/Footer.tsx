@@ -103,7 +103,7 @@ const Footer = () => {
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4 sm:mb-6">
               <div className="w-6 h-6 sm:w-8 sm:h-8 bg-purple-600 rounded-md sm:rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xs sm:text-sm">B</span>
+                <span className="text-white font-bold text-xs sm:text-sm">M</span>
               </div>
               <span className="text-lg sm:text-xl font-bold">Melog</span>
             </Link>
