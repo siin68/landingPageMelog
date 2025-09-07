@@ -209,7 +209,7 @@ const Pricing = () => {
             </div>
 
             <div className="text-center lg:text-right">
-              <Button variant="secondary" className="bg-white text-gray-900 hover:bg-gray-100 w-full lg:w-auto px-6 sm:px-8 py-3 text-sm sm:text-base lg:text-lg">
+              <Button variant="secondary" className="bg-white text-gray-900 hover:bg-gray-100 w-full lg:w-auto px-6 sm:px-8 py-3 text-sm sm:text-base lg:text-lg cursor-pointer">
                 Contact sales
               </Button>
             </div>

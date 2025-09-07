@@ -41,29 +41,6 @@ const Hero = () => {
                 Contact sales
               </Button>
             </div>
-
-            <div className="pt-6 sm:pt-8 lg:pt-12">
-              <p className="text-sm sm:text-base text-gray-500 uppercase tracking-wide font-semibold mb-4 sm:mb-6">
-                TRUSTED BY OVER 18,000 COMPANIES WORLDWIDE
-              </p>
-              <div className="flex flex-wrap items-center gap-4 sm:gap-6 lg:gap-8">
-                <div className="px-4 py-2 bg-white/60 backdrop-blur-sm rounded-xl shadow-sm border border-purple-100 hover:shadow-md transition-all duration-300">
-                  <span className="text-sm font-semibold text-gray-700">Omron</span>
-                </div>
-                <div className="px-4 py-2 bg-white/60 backdrop-blur-sm rounded-xl shadow-sm border border-purple-100 hover:shadow-md transition-all duration-300">
-                  <span className="text-sm font-semibold text-gray-700">SoftBank</span>
-                </div>
-                <div className="px-4 py-2 bg-white/60 backdrop-blur-sm rounded-xl shadow-sm border border-purple-100 hover:shadow-md transition-all duration-300">
-                  <span className="text-sm font-semibold text-gray-700">JPX</span>
-                </div>
-                <div className="px-4 py-2 bg-white/60 backdrop-blur-sm rounded-xl shadow-sm border border-purple-100 hover:shadow-md transition-all duration-300">
-                  <span className="text-sm font-semibold text-gray-700">BuzzFeed</span>
-                </div>
-                <div className="px-4 py-2 bg-white/60 backdrop-blur-sm rounded-xl shadow-sm border border-purple-100 hover:shadow-md transition-all duration-300">
-                  <span className="text-sm font-semibold text-gray-700">DMM</span>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="relative order-1 lg:order-2">

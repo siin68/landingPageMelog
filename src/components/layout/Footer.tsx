@@ -314,6 +314,7 @@ const Footer = () => {
             <span className="text-gray-400 text-xs sm:text-sm">English</span>
             <select className="bg-gray-800 border border-gray-700 rounded px-2 sm:px-3 py-1 text-xs sm:text-sm text-gray-400 focus:outline-none focus:border-purple-500">
               <option>English</option>
+              <option>Tiếng Việt</option>
               <option>日本語</option>
               <option>한국어</option>
             </select>
