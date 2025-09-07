@@ -10,11 +10,11 @@ interface ButtonProps {
 
 const Button: FC<ButtonProps> = ({ children, variant = "primary", className = "", onClick }) => {
   const baseClasses =
-    "inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 hover:scale-105 active:scale-95"
+    "inline-flex items-center justify-center font-semibold rounded-2xl transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-purple-300/50"
 
   const variantClasses = {
-    primary: "bg-purple-600 hover:bg-purple-700 text-white shadow-lg hover:shadow-xl",
-    secondary: "bg-white hover:bg-gray-50 text-gray-700 border border-gray-300 shadow-sm hover:shadow-md",
+    primary: "bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-lg hover:shadow-xl",
+    secondary: "bg-white hover:bg-purple-50 text-purple-700 border-2 border-purple-200 hover:border-purple-300 shadow-md hover:shadow-lg",
   }
 
   return (

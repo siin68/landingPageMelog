@@ -9,14 +9,14 @@ interface FeatureCardProps {
 
 const FeatureCard: FC<FeatureCardProps> = ({ icon, title, description }) => {
   return (
-    <div className="text-center p-4 sm:p-6 lg:p-8 rounded-lg sm:rounded-xl lg:rounded-2xl hover:bg-purple-50 transition-all duration-300 group cursor-pointer hover:shadow-lg hover:-translate-y-1">
-          <div className="text-3xl sm:text-4xl lg:text-6xl mb-3 sm:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300 group-hover:animate-pulse">
+    <div className="text-center p-6 sm:p-8 lg:p-10 rounded-3xl bg-white/60 backdrop-blur-sm border border-purple-100/50 hover:bg-white/80 hover:border-purple-200 transition-all duration-500 group cursor-pointer hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
+      <div className="text-4xl sm:text-5xl lg:text-6xl mb-4 sm:mb-6 lg:mb-8 group-hover:scale-125 transition-all duration-500 group-hover:rotate-12 filter drop-shadow-lg">
         {icon}
       </div>
-      <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-2 sm:mb-3 lg:mb-4 group-hover:text-purple-700 transition-colors duration-300">
+      <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 lg:mb-6 group-hover:bg-gradient-to-r group-hover:from-purple-600 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent transition-all duration-500">
         {title}
       </h3>
-          <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{description}</p>
+      <p className="text-base sm:text-lg text-gray-600 leading-relaxed font-medium">{description}</p>
     </div>
     )
 }

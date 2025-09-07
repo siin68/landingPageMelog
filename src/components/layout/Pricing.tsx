@@ -92,45 +92,49 @@ const Pricing = () => {
   ];
 
   return (
-    <section id="pricing" className="py-12 sm:py-16 lg:py-20 bg-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4 lg:mb-6 px-2">
-            Simple pricing for your team
+    <section id="pricing" className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-white via-purple-50/30 to-white relative overflow-hidden">
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-20 left-10 w-40 h-40 bg-gradient-to-br from-purple-400/10 to-blue-400/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-10 w-32 h-32 bg-gradient-to-br from-blue-400/10 to-purple-400/10 rounded-full blur-3xl"></div>
+      </div>
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="text-center mb-12 sm:mb-16 lg:mb-20">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8 px-2 tracking-tight">
+            Simple pricing for
+            <span className="bg-gradient-to-r from-purple-600 via-purple-700 to-blue-600 bg-clip-text text-transparent"> your team</span>
           </h2>
 
-          <div className="flex items-center justify-center space-x-3 sm:space-x-4 mb-6 sm:mb-8">
-            <span className={`text-sm sm:text-base font-medium ${!isAnnual ? 'text-gray-900' : 'text-gray-500'}`}>
+          <div className="flex items-center justify-center space-x-4 sm:space-x-6 mb-8 sm:mb-12">
+            <span className={`text-base sm:text-lg font-semibold transition-colors ${!isAnnual ? 'text-purple-600' : 'text-gray-500'}`}>
               Monthly
             </span>
             <button
               onClick={() => setIsAnnual(!isAnnual)}
-              className={`relative inline-flex h-5 sm:h-6 w-9 sm:w-11 items-center rounded-full transition-colors ${
-                isAnnual ? 'bg-purple-600' : 'bg-gray-200'
+              className={`relative inline-flex h-6 sm:h-7 w-12 sm:w-14 items-center rounded-full transition-all duration-300 shadow-lg ${isAnnual ? 'bg-gradient-to-r from-purple-600 to-blue-600' : 'bg-gray-300'
               }`}
             >
               <span
-                className={`inline-block h-3 sm:h-4 w-3 sm:w-4 transform rounded-full bg-white transition-transform ${
-                  isAnnual ? 'translate-x-5 sm:translate-x-6' : 'translate-x-1'
+                className={`inline-block h-4 sm:h-5 w-4 sm:w-5 transform rounded-full bg-white shadow-md transition-transform duration-300 ${isAnnual ? 'translate-x-6 sm:translate-x-7' : 'translate-x-1'
                 }`}
               />
             </button>
-            <span className={`text-sm sm:text-base font-medium ${isAnnual ? 'text-gray-900' : 'text-gray-500'}`}>
+            <span className={`text-base sm:text-lg font-semibold transition-colors ${isAnnual ? 'text-purple-600' : 'text-gray-500'}`}>
               Annually
             </span>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 sm:gap-6 mb-12 sm:mb-16 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 sm:gap-8 mb-16 sm:mb-20 max-w-7xl mx-auto">
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative bg-white rounded-lg sm:rounded-xl shadow-lg border-2 p-4 sm:p-6 lg:p-8 transition-all duration-200 hover:shadow-xl ${plan.popular ? 'border-purple-600 ring-2 ring-purple-100' : 'border-gray-200'
+              className={`cursor-pointer relative bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border-2 p-6 sm:p-8 lg:p-10 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 hover:scale-105 ${plan.popular ? 'border-purple-600 ring-4 ring-purple-100/50 bg-gradient-to-br from-purple-50/50 to-blue-50/30' : 'border-purple-200/50 hover:border-purple-300'
               }`}
             >
               {plan.popular && (
-                <div className="absolute -top-3 sm:-top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-purple-600 text-white px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm font-medium shadow-lg">
+                <div className="absolute -top-4 sm:-top-5 left-1/2 transform -translate-x-1/2">
+                  <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 sm:px-6 py-2 rounded-full text-sm sm:text-base font-semibold shadow-xl whitespace-nowrap">
                     Most Popular
                   </span>
                 </div>
